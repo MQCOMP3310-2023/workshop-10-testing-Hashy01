@@ -4,7 +4,7 @@ from sqlalchemy import text
 from .models import User
 from . import db
 from werkzeug.security import generate_password_hash, check_password_hash
-
+#test
 auth = Blueprint('auth', __name__)
 
 @auth.route('/login')
