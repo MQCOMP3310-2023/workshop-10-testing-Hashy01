@@ -4,7 +4,7 @@ from sqlalchemy import text
 from .models import User
 from . import db
 from werkzeug.security import generate_password_hash, check_password_hash
-
+#hello
 auth = Blueprint('auth', __name__)
 
 @auth.route('/login')
@@ -62,3 +62,5 @@ def logout():
     return redirect(url_for('main.index'))
 
 # See https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login for more information
+
+# Hello Team!
