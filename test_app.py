@@ -88,3 +88,5 @@ class TestWebApp(unittest.TestCase):
             'password' : 'test123'
         }, follow_redirects = True)
         assert response.status_code == 200 
+
+        # Hey there!
